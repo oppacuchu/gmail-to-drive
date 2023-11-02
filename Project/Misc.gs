@@ -192,7 +192,7 @@ function settingsCard(eventObj) {
     // Instruct the user that he has to refresh the card on shared folder change in order to update the static suggestions.
     .addWidget(CardService.newTextParagraph()
       .setText("<font color='#ff0000'><b>Warning</b></font>❗<br>\
-<u>Update</u> the card with the <i>save</i> button after a change to the Google Drive folder."))
+<u>Update</u> the card with the <i>save</i> button after changing the Google Drive folder."))
     // Add a divider between the individual settings.
     .addWidget(CardService.newDivider())
     // Switch for choosing if we have to save the whole thread or just the single email message.

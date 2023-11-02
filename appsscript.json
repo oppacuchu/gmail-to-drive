@@ -1,0 +1,46 @@
+{
+  "timeZone": "Europe/Rome",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "version": "v1",
+        "serviceId": "gmail"
+      },
+      {
+        "userSymbol": "Drive",
+        "version": "v2",
+        "serviceId": "drive"
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/drive",
+    "https://mail.google.com/"
+  ],
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "logoUrl": "https://static.wikia.nocookie.net/courage/images/4/46/New_Courage.png/revision/latest/scale-to-width-down/350?cb=20200912151506",
+      "name": "Gmail ➡ Drive",
+      "layoutProperties": {
+        "primaryColor": "#FF00FF",
+        "secondaryColor": "#00FF00"
+      }
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "onGmailMessageOpen"
+        }
+      ],
+      "homepageTrigger": {
+        "enabled": true,
+        "runFunction": "gmailHomepage"
+      }
+    }
+  }
+}

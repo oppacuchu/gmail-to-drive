@@ -132,12 +132,9 @@ function gmailHomepage(eventObj) {
     // Show the user a description of the add-on's functionality.
     .addWidget(
       CardService.newTextParagraph()
-        .setText("Questo componente aggiuntivo consente il salvataggio dei messaggi e-mail \
-in un unico file PDF, salvato nella cartella di Google Drive desiderata.<br>Gli eventuali allegati di tipo \
-immagine verranno aggiunti sotto ogni messaggio, mentre gli altri tipi di allegati verranno salvati in una \
-cartella creata su misura per ospitare sia gli allegati stessi che il file PDF contenente i messaggi della \
-conversazione. Verrà inoltre aggiunto un link sotto ogni messaggio per la visualizzazione rapida di questi \
-allegati 📎.<br>É inoltre possibile inviare una notifica via e-mail.")
+        .setText("This add-on allows you to save your email messages into a single PDF file, saved to your desired Google Drive folder.
+Any image attachments will be added under each message, while other types of attachments will be saved in a folder created specifically to accommodate both the attachments themselves and the PDF file containing the messages of the conversation. A link will also be added under each message for quick viewing of these attachments 📎.
+It is also possible to send a notification via email.")
     )
     .setHeader("Description 💬")
     .setCollapsible(true);

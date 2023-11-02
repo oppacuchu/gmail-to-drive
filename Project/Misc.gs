@@ -9,7 +9,7 @@
 function cardFooter(functionName) {
   return CardService.newFixedFooter().setPrimaryButton(
     CardService.newTextButton()
-      .setText("salva 💾")
+      .setText("save 💾")
       .setAltText("save")
       // TODO: disable "save" button when the folderNameInput Text Input is empty
       //.setDisabled(false)
@@ -191,7 +191,7 @@ function settingsCard(eventObj) {
     .addWidget(dropdownGroup)
     // Instruct the user that he has to refresh the card on shared folder change in order to update the static suggestions.
     .addWidget(CardService.newTextParagraph()
-      .setText("<font color='#ff0000'><b>Attenzione</b></font>❗<br>\
+      .setText("<font color='#ff0000'><b>Warning</b></font>❗<br>\
 <u>Update</u> the card with the button after a change to the Google Drive folder."))
     // Add a divider between the individual settings.
     .addWidget(CardService.newDivider())

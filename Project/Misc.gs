@@ -132,9 +132,8 @@ function gmailHomepage(eventObj) {
     // Show the user a description of the add-on's functionality.
     .addWidget(
       CardService.newTextParagraph()
-        .setText("This add-on allows you to save your email messages into a single PDF file, saved to your desired Google Drive folder.
-Any image attachments will be added under each message, while other types of attachments will be saved in a folder created specifically to accommodate both the attachments themselves and the PDF file containing the messages of the conversation. A link will also be added under each message for quick viewing of these attachments 📎.
-It is also possible to send a notification via email.")
+        .setText("This add-on allows you to save email messages \
+into a single PDF file, saved in the desired Google Drive folder.<br>Any image \ attachments will be added under each message, while other types of attachments \ will be saved in a folder created to accommodate both the attachments themselves \ and the PDF file containing the thread of messages. A link will also be added \ under each message for the quick viewing of the attachments 📎.<br>It is also \ possible to send a notification via email.")
     )
     .setHeader("Description 💬")
     .setCollapsible(true);

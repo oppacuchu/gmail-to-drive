@@ -4,8 +4,6 @@
 Archive emails from Gmail directly into a Google Drive folder!
 
 
-Then you should enable the project on your profile in order to use it (google it until I update this readme with more info).
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>

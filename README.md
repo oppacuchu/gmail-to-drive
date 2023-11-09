@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 # Gmail to Google Drive
-Archive emails from Gmail directly into a Google Drive folder!
+Archive emails from Gmail directly into a shared Google Drive folder!
 
 
 <!-- TABLE OF CONTENTS -->
@@ -40,7 +40,7 @@ This is a step-by-step guide to configure the add-on on your account.
 
 ### Prerequisites
 
-This add-on works only for Google Workspace accounts (you need access to Google Apps Script).
+This add-on works only for Google Workspace accounts (you need access to Google Apps Script) and uploads the files in a Shared drive of Google Drive.
 
 
 ### Installation
